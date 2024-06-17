@@ -1,0 +1,83 @@
+{
+  "mod_elements": [
+    {
+      "name": "WalkTowardsPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "walk_towards_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sideprojectthestalker/procedures/WalkTowardsPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StalkerWatch",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stalker_watch",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/sideprojectthestalker/client/renderer/StalkerWatchRenderer.java",
+          "src/main/resources/assets/sideproject_the_stalker/models/item/stalker_watch_spawn_egg.json",
+          "src/main/resources/data/sideproject_the_stalker/forge/biome_modifier/stalker_watch_biome_modifier.json",
+          "src/main/java/net/mcreator/sideprojectthestalker/entity/StalkerWatchEntity.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "entity.sideproject_the_stalker.stalker_watch": "Stalker",
+      "item.sideproject_the_stalker.stalker_watch_spawn_egg": "Stalker Spawn Egg"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "sideproject_the_stalker",
+    "modName": "SideProject, The Stalker",
+    "version": "1.0.0",
+    "author": "PC, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.sideprojectthestalker",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}
